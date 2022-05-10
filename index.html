@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Caats</title>
+</head>
+
+<body>
+    <div class="agencement">
+        <nav>
+            <p class="mypet">MY PET</p>
+
+            <a target="_blank" href="changerphoto.html"><img class="photochat" src="img/cat.png"
+                    alt="Petit chat tout mignon"></a>
+
+            <p class="souhaitez">Vous souhaitez : </p>
+
+            <ul>
+                <li><a target="_blank" href="changerphoto.html">Changer la photo de profil</a></li>
+                <li> <a target="_blank" href="modifexpedition.html">Modifier sa date d'expédition</a></li>
+                <li><a target="_blank" href="modifmenu.html">Modifier son menu</a></li>
+                <li><a target="blank" href="modifprofil.html">Modifier son profil</a></li>
+                <li><a target="_blank" href="suspendreleslivraisons.html">Suspendre les livraisons</a></li>
+                <li><a target="_blank" href="contacterleserviceclient.html">Contacter le service client</a></li>
+            </ul>
+        </nav>
+
+        <section id="main">
+            <article>
+                <h2 class="prochaine-title">Prochaine expédition</h2>
+                <div class="prochaine">
+
+                    <div class="prochaine-img"><img src="img/box.png" alt="box-carton"></div>
+                    <div class="prochaine-text">
+                        <h3>2 mois d'alimentation pour le chat</h3>
+                        <ul>
+                            <li>7.2kg de croquettes saines et naturelles</li>
+                            <li>40 pochons d'effilochés</li>
+                        </ul>
+                        <h3>Prix total pour 2 mois : 82.40€ (1.37€ : jour)</h3>
+                        <p>Date de facturation et préparation : 15/11/2021<br>
+                            Livrason estimée 16/11/2021 ++ 199/11/2021</p>
+                        <a target="_blank" href="modifexpedition.html">Modifier sa date d'expédition</a>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="menu-title">Le menu du chat</h2>
+                <div class="menu">
+
+                    <div class="menu-img"><img src="img/food.png" alt="food packages"></div>
+                    <div class="menu-text">
+                        <p>Croquettes (poulets et petits légumes)... <strong>35g/jour</strong></p>
+                        <p>Effilochés (plusieurs saveurs)... <strong>1 pochon/jour</strong></p>
+                        <p>Prix total par jour... <strong>1.37/jour</strong></p>
+                        <h3>Fréquence de livraison tous les 2 mois</h3>
+                        <a target="_blank" href="modifmenu.html">Modifier le menu</a>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="profil-title">Le Profil du chat</h2>
+                <div class="profil">
+                    <div class="profil-form-left">
+                        <form action="mapage.php">
+                            <p>
+                                <label for="nom">Nom :</label>
+                                <input type="text" name="nom" id="nom">
+                            </p>
+                            <p>
+                                <label for="sexe">Sexe :</label>
+                                <select name="sexe" id="sexe">
+                                    <option value="" selected hidden>Veuillez sélectionner une option</option>
+                                    <option value="masculin">Masculin</option>
+                                    <option value="féminin">Féminin</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="sterilisation">Stérilisation :</label>
+                                <select name="sterilisation" id="sterilisation">
+                                    <option value="" selected hidden>Veuillez sélectionner une option</option>
+                                    <option value="oui">Oui</option>
+                                    <option value="non">Non</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="activite">Activité :</label>
+                                <input type="text" name="activite" id="activite">
+                            </p>
+                            <p>
+                                <label for="allergies">Allergies :</label>
+                                <input type="text" name="activite" id="activite">
+                            </p>
+                            <p>
+                                <label for="sante" class="sante">Santé :</label>
+                                <input type="text" name="sante" id="sante">
+                            </p>
+                    </div>
+                    <div class="profil-form-right">
+                        </p>
+                        <p>
+                            <label for="birthdate">Date de naissance :</label>
+                            <input type="date" name="activite" id="activite">
+                        </p>
+                        <p>
+                            <label for="race">Race :</label>
+                            <input type="text" name="race" id="race">
+                        </p>
+                        <p>
+                            <label for="poids">Poids :</label>
+                            <input type="text" name="activite" id="activite">
+                        </p>
+                        <p>
+                            <label for="preferencealim">Préférence alimentaire :</label>
+                            <input type="text" name="preferencealim" id="preferencealim">
+                        </p>
+                    </div>
+                    </form>
+
+                </div>
+                <a class="modifprofil" target="_blank" href="modifprofil.html">Modifier son profil</a>
+    </div>
+
+    </article>
+
+    </section>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.agencement{
+display: flex; 
+}
+#main{
+    margin-left: 20px;
+}
+.prochaine  {
+display: flex;
+}
+
+.prochaine img{
+    display: block;
+    width: 250px;
+    
+    
+}
+
+.prochaine-text{
+    padding-top: 50px;
+
+}
+.prochaine-title{
+    margin: 0;
+    padding-left: 20px;
+    
+}
+.menu{
+    display: flex;
+
+}
+
+.menu-title{
+    margin: 10px 0 0 0 ;
+     padding-left: 20px;
+}
+
+.menu-img img{
+    display: block;
+    width: 250px;
+}
+
+.menu-text{
+    padding-top: 50px;
+}
+
+.profil{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 200%;
+
+}
+
+.mypet {
+   
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+.souhaitez {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+
+ /* a.modifprofil{
+     display: flex;
+     justify-content: center;
+}
+*/
+nav a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+nav {
+
+    width: 300px;
+    height: 750px;
+    border: 1px rgb(0, 0, 0) solid;
+    justify-content: left;
+    overflow: visible;
+}
+
+
+nav li {
+    background-color: #ff6363;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px 10px 15px 10px;
+    border-radius: 45px;
+    width: auto;
+    height: auto;
+
+}
+
+nav ul {
+    padding: 25px 0px;
+}
+
+nav img {
+
+    width: 180px;
+    border-radius: 50%;
+    padding: 0px 55px;
+
+}
